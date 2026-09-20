@@ -1,0 +1,26 @@
+config EXAMPLES_TEXT_AGENT
+        tristate "Minimal text receiver"
+        default n
+        depends on NET_TCP
+        ---help---
+                Enable a small HTTP endpoint that receives one text message.
+
+if EXAMPLES_TEXT_AGENT
+
+config EXAMPLES_TEXT_AGENT_PROGNAME
+        string "Program name"
+        default "text_agent"
+
+config EXAMPLES_TEXT_AGENT_PRIORITY
+        int "Text receiver task priority"
+        default 110
+
+config EXAMPLES_TEXT_AGENT_STACKSIZE
+        int "Text receiver stack size"
+        default 4096
+
+config EXAMPLES_TEXT_AGENT_PORT
+        int "Text receiver TCP port"
+        default 28789
+
+endif
