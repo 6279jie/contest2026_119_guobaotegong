@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "team_id": "contest2026_119_guobaotegong",
+  "github_login": "6279jie",
+  "generator": "Codex Desktop session export",
+  "sessions": [
+    {
+      "session_id": "01a0b973-a92b-76f0-8ca2-8d1de0fef71a",
+      "tool": "codex",
+      "started_at": "2026-09-19T11:40:01.783Z",
+      "last_event_at": "2026-09-20T15:17:47.829Z",
+      "event_count": 6035,
+      "file_path": "logs/6279jie/2026-09-19/codex__01a0b973-a92b-76f0-8ca2-8d1de0fef71a.jsonl",
+      "collection_mode": "manual-export",
+      "health": "ok"
+    }
+  ],
+  "updated_at": "2026-09-20T23:17:49.373757+08:00"
+}
